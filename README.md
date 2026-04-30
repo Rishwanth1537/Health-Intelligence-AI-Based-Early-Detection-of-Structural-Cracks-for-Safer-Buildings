@@ -119,6 +119,38 @@ The project is deployed using **Gradio** on Hugging Face Spaces.
 3. View detected crack regions instantly  
 
 ---
+## 📊 Results
+
+### 🔍 Sample Predictions
+
+#### ✅ Strong Detection (Clear Crack)
+
+<p align="center">
+  <img src="insights/result2.webp" width="500"/>
+</p>
+
+- High confidence detection (~0.87)  
+- Clean localization of the crack  
+
+---
+
+#### ⚖️ Mixed Detection (Real-world Case)
+
+<p align="center">
+  <img src="insights/result.webp" width="500"/>
+</p>
+
+- One strong detection (~0.88)   
+
+---
+
+### 📌 Key Takeaways
+
+- Model performs well on clear, visible cracks  
+- Smaller or fragmented cracks reduce confidence  
+- Detection is reliable but not perfect — recall can be improved
+
+---
 
 ## ⚠️ Limitations
 
